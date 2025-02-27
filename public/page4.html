@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Performance - Premium Web Experience</title>
+    <title>About PTC</title>
     <link rel="stylesheet" href="style.css">
     <style>
         body {
@@ -19,8 +19,35 @@
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
             max-width: 800px;
             margin: 50px auto;
-            color: white; /* Adjust text color for better visibility */
+            color: white;
+            text-align: center; 
         }
+
+        ul {
+    list-style: none; 
+    padding-left: 20px;
+    text-align: left; 
+}
+
+ul li {
+    position: relative;
+    padding-left: 30px; 
+    color: orange; 
+    font-size: 1.2em;
+    text-align: left; 
+}
+
+ul li::before {
+    content: "•";
+    color: green; 
+    font-size: 1.5em;
+    position: absolute;
+    left: 0; 
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+
     </style>
 </head>
 <body>
@@ -44,7 +71,7 @@
         </nav>
         
         <footer>
-            <p>&copy; 2025 Premium Web Experience. All rights reserved.</p>
+            <p>&copy;<i>Made by Anna Louisse Bachoco.</p></i>
         </footer>
     </div>
 </body>
